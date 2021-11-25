@@ -1,12 +1,7 @@
 import { useEffect } from "react"
 
 const Home = () => {
-    useEffect(() => {Window.scroll(0,0) }, [] )
-    return (
-        <div>
-            HOME PAGE
-        </div>
-    )
+   return<h1>Home page</h1>
 }
 
 export default Home
