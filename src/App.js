@@ -9,7 +9,7 @@ import Profile from './pages/Profile';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename = "demo">
     <div className="App">
       <Header />
     </div>
