@@ -24,7 +24,7 @@ function App() {
         <Route path='/about' component={About} />
         <Route path='/profile'>
           {login ? <Profile /> : <Redirect to='/' />}
-        </Route>
+        </Route >
         <Route path='/post' component={Post} />
         <Route component={NotFound} />
 
